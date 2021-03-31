@@ -1,0 +1,186 @@
+/* DECLARATION POLICE PERSONNALISEE */
+@font-face{
+    font-family: 'oswald';
+    src: url(../font/Oswald-Regular.ttf);
+}
+
+html{
+    font-size: 0.8em;
+}
+
+/* CORPS */
+body{
+    /* couleurs et marges intérieures fond du site */
+    background-color: #540008;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    /* polices + tailles sur l'ensemble de la page */
+    font-size: 100%;
+    font-family: 'oswald', Arial, Helvetica, sans-serif;
+}
+/* FIN CORPS */
+
+/* CONTAINER */
+div#container{
+    /* couleur de fond du contenant HC */
+    background-color: #fff;
+    /* largeur */
+    width: 760px;
+    /* centrage contenant */ 
+    margin: 0 auto;
+    /* éléments centrés dans tout le contenant */
+    text-align: center;
+    padding: 15px;
+}
+/* FIN CONTAINER */
+
+/* EN-TETE */
+div#header_hc{
+    /* bordures bs/ht hero corp */
+    border-top: solid 2px #8b0000;
+    border-bottom: solid 2px #8b0000;
+    /* marges intérieurs */
+    padding: 15px;
+    font-weight: bold;
+}
+
+div#header_hc h1{
+    /* affichage block h1 en inline */
+    display: inline;
+    font-size: 2.5em;
+    letter-spacing: 1.5px;
+    margin-right: 5px;
+}
+
+/* mise en forme paragraphe dans div.header */
+div#header_hc p{
+    display: inline;
+    font-size: 0.8em;
+    background-color: #000;
+    color: #fff;
+    padding: 7px;
+}
+/* FIN EN-TETE */
+
+/* PARTIE PRINCIPALE */
+main{
+    width: 70%;
+    margin: 0 auto;
+}
+/* FIN PARTIE PRINCIPALE */
+
+/* SECTIONS */
+section{
+    background-color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 15px;
+}
+
+section#presentation{
+    background-color: #eee;
+    border: solid 2px #540008;
+    padding: 35px 20px;
+}
+/* FIN SECTIONS */
+
+/* ELEMENTS SECTIONS */
+h2, h3{
+    font-weight: bold;
+}
+h2{
+    font-size: 2em;
+}
+h3{
+    font-size: 1.5em;
+    color: #910f0f;
+    padding: 10px;
+}
+
+section a, p{
+    font-size: 1em;
+}
+
+section p{
+    text-align: left;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+/* FIN ELEMENTS SECTIONS */
+
+/* ELEMENTS SECTION ARTICLE */
+#presentation img{
+    width: 20%;
+    margin-top: 30px;
+}
+
+.historic{
+    border-top: solid 2px #000;
+    text-align: center;
+    font-style: italic;
+}
+/* FIN SECTION ARTICLE */
+
+/* ELEMENTS SECTIONS LIENS */
+a{
+    display: block;
+    background-color: #eee;
+    color: #9d2b2b;
+    font-size: 0.5em;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    border: solid 2px #540008;
+    border-radius: 20px;
+}
+
+a:hover{
+    background-color: #540008;
+    color: #fff;
+    font-weight: bold;
+}
+/* FIN SECTION LIENS */
+
+/* ELEMENTS SECTION PICTURES */
+
+figure{
+    width: 35%;
+    border: solid 1px #eee;
+    line-height: 20px;
+    padding-top: 15px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+figure:hover{
+    background-color: #8b0000;
+    color: #fff;
+}
+
+figure img{
+    width: 80%;
+}
+
+figure h4{
+    background-color: #fff;
+    color: #8b0000;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+figcaption{
+    padding: 8px;
+}
+
+/* FIN SECTION PICTURES */
+
+/* FOOTER */
+footer p{
+    font-size: 1em;
+    background-color: #eee;
+    border: solid 2px #540008;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+/* FIN FOOTER */
