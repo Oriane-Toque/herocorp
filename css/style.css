@@ -14,6 +14,7 @@ body {
   background-color: #540008;
   padding-top: 25px;
   padding-bottom: 25px;
+
   /* polices + tailles sur l'ensemble de la page */
   font-size: 100%;
   font-family: 'oswald', Arial, Helvetica, sans-serif;
@@ -24,7 +25,7 @@ body {
 /* CONTAINER */
 
 div#container {
-  background-color: #FFF;
+  background-color: #fff;
   width: 760px;
   margin: 0 auto;
   text-align: center;
@@ -37,8 +38,9 @@ div#container {
 
 div#header_hc {
   /* bordures bs/ht hero corp */
-  border-top: solid 2px #8B0000;
-  border-bottom: solid 2px #8B0000;
+  border-top: solid 2px #8b0000;
+  border-bottom: solid 2px #8b0000;
+
   /* marges intérieurs */
   padding: 15px;
   font-weight: bold;
@@ -58,11 +60,11 @@ div#header_hc p {
   display: inline;
   font-size: 0.8em;
   background-color: #000;
-  color: #FFF;
+  color: #fff;
   padding: 7px;
 }
 
-header img{
+header img {
   margin-bottom: 15px;
 }
 
@@ -80,14 +82,14 @@ main {
 /* SECTIONS */
 
 section {
-  background-color: #FFF;
+  background-color: #fff;
   margin-top: 20px;
   margin-bottom: 20px;
   line-height: 15px;
 }
 
 section#presentation {
-  background-color: #EEE;
+  background-color: #eee;
   border: solid 2px #540008;
   padding: 35px 20px;
 }
@@ -95,7 +97,8 @@ section#presentation {
 /* FIN SECTIONS */
 
 /* ELEMENTS SECTIONS */
-h2, h3 {
+h2,
+h3 {
   font-weight: bold;
 }
 
@@ -106,7 +109,7 @@ h2 {
 
 h3 {
   font-size: 1.5em;
-  color: #910F0F;
+  color: #910f0f;
   padding: 10px;
 }
 
@@ -147,8 +150,8 @@ ul li {
 
 ul li a {
   display: block;
-  background-color: #EEE;
-  color: #9D2B2B;
+  background-color: #eee;
+  color: #9d2b2b;
   font-size: 0.8em;
   margin: 5px;
   padding: 5px;
@@ -160,7 +163,7 @@ ul li a {
 
 ul li a:hover {
   background-color: #540008;
-  color: #FFF;
+  color: #fff;
   font-weight: bold;
 }
 
@@ -170,7 +173,7 @@ ul li a:hover {
 
 figure {
   width: 35%;
-  border: solid 1px #EEE;
+  border: solid 1px #eee;
   line-height: 20px;
   padding-top: 15px;
   margin: 0 auto;
@@ -178,8 +181,8 @@ figure {
 }
 
 figure:hover {
-  background-color: #8B0000;
-  color: #FFF;
+  background-color: #8b0000;
+  color: #fff;
 }
 
 figure img {
@@ -187,8 +190,8 @@ figure img {
 }
 
 figure h4 {
-  background-color: #FFF;
-  color: #8B0000;
+  background-color: #fff;
+  color: #8b0000;
   font-size: 1.2em;
   font-weight: bold;
 }
@@ -202,7 +205,7 @@ figcaption {
 /* FOOTER */
 footer p {
   font-size: 1em;
-  background-color: #EEE;
+  background-color: #eee;
   border: solid 2px #540008;
   padding-top: 25px;
   padding-bottom: 50px;
